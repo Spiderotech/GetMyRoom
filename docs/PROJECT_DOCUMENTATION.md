@@ -224,6 +224,7 @@ Current risk: `BACKEND/src/config/config.js` contains hard-coded MongoDB and ema
 
 - [Architecture](ARCHITECTURE.md)
 - [Folder Structure](FOLDER_STRUCTURE.md)
+- [Frontend Functionality](FRONTEND_FUNCTIONALITY.md)
 - [API Documentation](API_DOCUMENTATION.md)
 - [Environment Setup](ENVIRONMENT.md)
 - [Database Documentation](DATABASE.md)

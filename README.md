@@ -91,6 +91,7 @@ Detailed documentation is available in `docs/`:
 - [Hosting Documentation](docs/HOSTING_DOCUMENTATION.md)
 - [Architecture](docs/ARCHITECTURE.md)
 - [Folder Structure](docs/FOLDER_STRUCTURE.md)
+- [Frontend Functionality](docs/FRONTEND_FUNCTIONALITY.md)
 - [API Documentation](docs/API_DOCUMENTATION.md)
 - [Environment Setup](docs/ENVIRONMENT.md)
 - [Database Documentation](docs/DATABASE.md)
