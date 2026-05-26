@@ -60,7 +60,7 @@ const Location = ({ handleFormDataChange }) => {
 
   useEffect(() => {
     const script = document.createElement('script');
-    script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyCoQVX3-I5XP1kdYs0b1SX-h-qy5Bd_CGU&libraries=places`;
+    script.src = ``;
     script.async = true;
     script.defer = true;
     document.head.appendChild(script);

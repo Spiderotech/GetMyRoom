@@ -24,32 +24,38 @@ The product supports:
 
 ## Git Repository
 
-The current project folder is not initialized as a git repository. Running `git remote -v` from the workspace root fails because there is no `.git` folder.
+The project source code is maintained in a GitHub repository.
 
-Current status:
-
-```text
-Git repository: not configured
-Git remote URL: not available
-```
-
-Recommended setup:
-
-```bash
-git init
-git add .
-git commit -m "Initial GetMyRoom project"
-git branch -M main
-git remote add origin <repository-url>
-git push -u origin main
-```
-
-After the repository is created, update this section:
+Repository details:
 
 ```text
-Git repository: <final-repository-url>
+Repository name: GetMyRoom
+Repository owner/organization: Spiderotech
+Repository URL: git@github.com:Spiderotech/GetMyRoom.git
+Remote name: origin
+Remote fetch URL: git@github.com:Spiderotech/GetMyRoom.git
+Remote push URL: git@github.com:Spiderotech/GetMyRoom.git
 Main branch: main
 ```
+
+Useful git commands:
+
+```bash
+git status
+git remote -v
+git pull origin main
+git push origin main
+```
+
+Recommended development branch flow:
+
+```bash
+git checkout main
+git pull origin main
+git checkout -b feature/<feature-name>
+```
+
+Note: the git repository stores the project source code. It does not mean the project is hosted. Frontend hosting, backend hosting, S3, database, DNS, and production credentials still need to be created/configured separately.
 
 ## Current Hosting Status
 
